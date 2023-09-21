@@ -1,5 +1,5 @@
 def call() {           
-  withSonarQubeEnv('Sonar-Server-7.8') {
+  withSonarQubeEnv() {
 	    sh "mvn sonar:sonar"
    }
 }
